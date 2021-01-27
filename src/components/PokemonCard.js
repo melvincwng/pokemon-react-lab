@@ -12,7 +12,7 @@ function PokemonCard( {pokemon} ) {
     
     return (
       <div className = 'box'>
-        <img src={process.env.PUBLIC_URL + `../pokemonImage/${id}.png`}></img>
+        <img src={process.env.PUBLIC_URL + `/pokemonImage/${id}.png`}></img>
         <div><b>{name.english}</b></div>
         <span className = "type-box">{type[0]}</span>
         <span className = "type-box2">{type[1]}</span>
