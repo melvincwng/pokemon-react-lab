@@ -15,6 +15,7 @@ import PokemonGallery from "./components/PokemonGallery.js"
 function App() {
   return (
     <div className="App">
+      <img src={process.env.PUBLIC_URL + "../pokemonImage/p.png"} className="pokemon-image"></img>
       <PokemonGallery />
     </div>
   );
@@ -23,3 +24,4 @@ function App() {
 export default App;
 // <PokemonCard pokemon={bulbasaur} /> --> This is how I used the PokemonCard functional
 // component to get bulbasaur. This is useful in PokemonGallery.js later.
+// <MyComponent /> means to instruct React to create and render a user-defined component
