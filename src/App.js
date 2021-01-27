@@ -15,7 +15,7 @@ import PokemonGallery from "./components/PokemonGallery.js"
 function App() {
   return (
     <div className="App">
-      <img src={process.env.PUBLIC_URL + "../pokemonImage/p.png"} className="pokemon-image"></img>
+      <img src={process.env.PUBLIC_URL + "/pokemonImage/p.png"} className="pokemon-image"></img>
       <PokemonGallery />
     </div>
   );
