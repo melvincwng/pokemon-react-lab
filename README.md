@@ -12,3 +12,5 @@ git clone https://github.com/thoughtworks-jumpstart/pokemon-react-lab.git
 npm install
 npm start
 ```
+## Live Demo:
+https://melvincwng.github.io/pokemon-react-lab/
